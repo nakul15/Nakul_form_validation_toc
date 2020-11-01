@@ -4,7 +4,7 @@ function validation(){
     var phone = document.getElementById("text1").value;
     var zipcode = document.getElementById("code").value;
     var email = document.getElementById("email").value; 
-    var phoneregex = /^(/+91)?[6-9]\d{9}$/;
+    var phoneregex = /^(\+91)?[6-9]\d{9}$/;
     var userregex = /^([a-zA-Z0-9_-]){4,15}$/
     var emailregex=  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     var passregex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
