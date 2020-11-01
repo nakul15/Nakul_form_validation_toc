@@ -7,7 +7,7 @@ function validation(){
     var phoneregex = /^[6-9]\d{9}$/;
     var userregex = /^([a-zA-Z0-9_-]){4,15}$/
     var emailregex=  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    var passregex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    var passregex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@\$!%\*?&])[A-Za-z\d@\$!%\*?&]{8,}$/;
     var zregex = /^\d{6}$/;
 
 
